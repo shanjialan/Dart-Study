@@ -29,5 +29,23 @@ void main(List<String> arguments) {
   var result = calResult(a, b, c);
   print('aX^2+bx+c=0的解是$result');
 }
+  
+  ## date：2021/7/27
+  ## homework:MultiplicationTable
+  @author：shanjialan
+  main(List<String> args) {
+  paintMultiplicationTable(9);
+}
+
+paintMultiplicationTable(int a) {
+  for (int i = 1; i <= a; i++) {
+    for (int j = 1; j <= 10; j++) {
+      int c = i * j;
+      print("$i*$j=$c\t");
+    }
+    print("\n");
+  }
+}
+
 
 
